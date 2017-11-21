@@ -1,4 +1,4 @@
-project_name = 'capston-project'
+<% project_name = 'capstone-project' %>
 
 default: &default
   adapter: postgresql
