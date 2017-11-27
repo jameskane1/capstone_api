@@ -6,4 +6,5 @@ class User < ApplicationRecord
   has_many :weathers
   has_many :sports
   has_many :celebs
+  has_many :news_papers
 end
