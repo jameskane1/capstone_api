@@ -5,4 +5,5 @@ class User < ApplicationRecord
   has_many :examples
   has_many :weathers
   has_many :sports
+  has_many :celebs
 end
