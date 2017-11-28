@@ -3,7 +3,7 @@ class NewsPapersController < ProtectedController
 
   # GET /news_papers
   def index
-    @news_paper = current_user.news_papers.all
+    @news_papers = current_user.news_papers.all
 
     render json: @news_papers
   end
