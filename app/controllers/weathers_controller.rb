@@ -46,6 +46,6 @@ class WeathersController < ProtectedController
 
     # Only allow a trusted parameter "white list" through.
     def weather_params
-      params.require(:weather).permit(:city, :zip, :google, :user_id)
+      params.require(:weather).permit(:city, :state, :google, :user_id)
     end
 end

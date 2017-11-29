@@ -1,3 +1,3 @@
 class WeatherSerializer < ActiveModel::Serializer
-  attributes :id, :city, :zip, :google
+  attributes :id, :city, :state, :google
 end
